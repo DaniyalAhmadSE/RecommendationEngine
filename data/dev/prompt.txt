@@ -1,0 +1,80 @@
+Repeated Background Information:
+"""
+A. THE PERSONALITY OF Elias:
+
+  1. Educational Background:
+    i. Bachelor's Degree in Environmental Studies: Elias graduated with a strong foundation in environmental science, policy, and communication. During his studies, he focused on climate change, biodiversity conservation, and sustainable development. His undergraduate research investigated the impact of deforestation on local communities in the Amazon rainforest.
+    ii. Freelance Writing and Photography Experience: While completing his degree, Elias honed his writing and photography skills through freelance work for environmental blogs and online magazines. He covered local environmental campaigns, interviewed climate activists, and documented the impacts of climate change on different ecosystems. This experience solidified his passion for storytelling and its power to inspire change.
+    iii. International Volunteer Program: After graduation, Elias participated in a six-month volunteer program with an environmental NGO in Tanzania. He worked alongside local communities on reforestation projects, conducted environmental education workshops, and documented traditional resource management practices. This experience opened his eyes to the complexities of environmental challenges in developing countries and the importance of culturally sensitive solutions.
+
+  2. Current Activities:
+    i. Internship at Environmental News Website: Elias currently interns at a respected online news platform dedicated to environmental issues. He assists with research, interviews, and article writing, focusing on investigative pieces and human-interest stories. This internship provides him with invaluable experience in journalism and exposes him to the current media landscape related to environmental affairs.
+    ii. Independent Blog and Photography Project: Alongside his internship, Elias maintains his own blog where he shares personal reflections on environmental issues, showcases his photography, and interviews inspiring individuals working in the field. He uses this platform to connect with other environmental enthusiasts, build his audience, and experiment with different storytelling formats.
+    iii. Local Environmental Activism: Elias remains actively involved in environmental activism within his own community. He volunteers with local conservation organizations, participates in protests and campaigns, and organizes educational events focused on raising awareness about local environmental challenges and sustainable solutions.
+
+  3. Future Aspirations:
+    i. Full-time Environmental Journalist: Elias's ultimate goal is to become a full-time environmental journalist, contributing to in-depth reporting on critical environmental issues. He dreams of using his storytelling skills to inform the public, hold corporations and governments accountable, and inspire action toward a more sustainable future.
+    ii. Long-term Documentary Project: Elias envisions creating a long-term documentary project focusing on the stories of communities around the world affected by environmental degradation. He hopes to amplify their voices, showcase their resilience, and explore the human connection to the natural world.
+    iii. Building a Network of Changemakers: As his career progresses, Elias hopes to connect with other passionate individuals and organizations working in the environmental field. He envisions building a network of changemakers who can collaborate, share knowledge, and amplify their collective impact on protecting the planet.
+
+  4. Interests:
+    i. Environmental science and sustainability: This is his primary passion, and he enjoys learning about new discoveries, solutions, and initiatives in this field.
+    ii. Philosophy and social justice: He's drawn to deep thinking about ethical issues, societal problems, and how to create a more equitable world.
+    iii. Independent research and learning: He loves spending time researching topics that pique his curiosity, often delving into complex historical or scientific subjects.
+    iv. Simple living and minimalism: He appreciates a mindful and clutter-free life, focusing on experiences and connections over material possessions.
+
+  5. Likes:
+    i. Engaging in thoughtful conversations about meaningful topics.
+    ii. Participating in protests and activism for causes he believes in.
+    iii. Reading books and articles about philosophy, history, and environmental science.
+    iv. Spending time in nature, hiking, camping, or simply enjoying the outdoors.
+    v. Engaging in creative pursuits like writing, photography, or playing music (not for professional purposes).
+
+  6. Dislikes:
+    i. Superficiality and shallow conversations.
+    ii. Consumerism and excessive materialism.
+    iii. Corporate greed and environmental exploitation.
+    iv. Injustice and inequality of any kind.
+    v. Loud crowds and chaotic environments.
+
+  7. Hobbies:
+    i. Volunteering for environmental organizations or social justice causes.
+    ii. Attending lectures and workshops on topics he's interested in.
+    iii. Playing board games or engaging in intellectually stimulating activities with friends.
+    iv. Watching documentaries and independent films with deeper messages.
+    v. Practicing meditation or mindfulness exercises.
+
+  8. General tendencies:
+    i. Introverted and prefers quality time with close friends over large gatherings.
+    ii. Highly analytical and enjoys critical thinking and problem-solving.
+    iii. Idealistic and passionate about making a positive impact on the world.
+    iv. Independent and self-sufficient, preferring to forge his own path.
+    v. Can be somewhat reserved and private, but opens up to people he trusts
+
+  9. Note:
+    Take valid assumptions about his personality, but remember to be consistent with them in all my future queries.
+
+B. THE CONTENT:
+
+  1. The System:
+  As I told you, I am working on a recommendation system for a feed. The feed will be a part of a platform to bridge the gap between academia and the industry. Its human users will be students, teachers, and industrial professionals. Its organization users will be educational organizations and industrial organizations.
+
+  2. What I want:
+  So I want you to generate more dummy CSV content for my ML models in this exact format: text,popularity,elias_liked,elias_shared,elias_commented
+  Following is the explanation of each of these columns:
+    i. text is the text of the post.
+    ii. popularity is a floating point that represents the popularity of the post.
+    iii. elias_liked is a boolean that tells whether Elias has liked the post or not.
+    iv. elias_shared is a boolean that tells whether Elias has shared the post or not.
+    v. elias_commented is a boolean that tells whether Elias has commented on the post or not.
+
+  3. Details of the Data:
+    i. The text of the posts should be of varying lengths and from varying perspectives of all the mentioned user types, related to all kinds of domains, and about different things suitable for this platform. some posts can be very large, and some can be small. They should sound similar to LinkedIn posts because this is a formal platform. However, there can also be funny content now and then. Remember, variety is the key.
+    ii. The popularity of the posts should be between 0.5 and 1.0 (both inclusive), which is assumed to have been calculated based on the number of likes (with 0.0001 weight), shares (with 0.002 weight), and comments (with 0.01 weight) on the posts.
+    iii. Keep in mind the personality of Elias, and the weights of likes, shares, and comments, while generating the data about what posts he likes, shares, or comments on.
+    iv. As mentioned here likes, shares, and comments have weights. Comments have the highest weight because people tend to comment the least as compared to likes and shares, similarly, people tend to like posts the most is why it has the lowest weight. Elias must be no different in that
+    v. Do not make all the posts tailored to the personality of Elias. We need all kinds of posts including ones that Elias will ignore because he does not find them interesting. That is very important to know, so that, our system can make the right recommendation. Elias is just one user of our system. There are supposed to be posts from very different groups of people from very different domains having very different interests as compared to Elias. Please keep that in mind.
+"""
+
+Now generate 100 rows of data. It should be only plain CSV text without spaces after the commas, no explanation is needed, just like this:
+text,popularity,elias_liked,elias_shared,elias_commented
