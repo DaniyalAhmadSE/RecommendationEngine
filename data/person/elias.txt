@@ -1,6 +1,4 @@
-Repeated Background Information:
-"""
-A. THE PERSONALITY OF Elias:
+THE PERSONALITY OF Elias:
 
   1. Educational Background:
     i. Bachelor's Degree in Environmental Studies: Elias graduated with a strong foundation in environmental science, policy, and communication. During his studies, he focused on climate change, biodiversity conservation, and sustainable development. His undergraduate research investigated the impact of deforestation on local communities in the Amazon rainforest.
@@ -50,31 +48,3 @@ A. THE PERSONALITY OF Elias:
     iii. Idealistic and passionate about making a positive impact on the world.
     iv. Independent and self-sufficient, preferring to forge his own path.
     v. Can be somewhat reserved and private, but opens up to people he trusts
-
-  9. Note:
-    Take valid assumptions about his personality, but remember to be consistent with them in all my future queries.
-
-B. THE CONTENT:
-
-  1. The System:
-  As I told you, I am working on a recommendation system for a feed. The feed will be a part of a platform to bridge the gap between academia and the industry. Its human users will be students, teachers, and industrial professionals. Its organization users will be educational organizations and industrial organizations.
-
-  2. What I want:
-  So I want you to generate more dummy CSV content for my ML models in this exact format: text,popularity,elias_liked,elias_shared,elias_commented
-  Following is the explanation of each of these columns:
-    i. text is the text of the post.
-    ii. popularity is a floating point that represents the popularity of the post.
-    iii. elias_liked is a boolean that tells whether Elias has liked the post or not.
-    iv. elias_shared is a boolean that tells whether Elias has shared the post or not.
-    v. elias_commented is a boolean that tells whether Elias has commented on the post or not.
-
-  3. Details of the Data:
-    i. The text of the posts should be of varying lengths and from varying perspectives of all the mentioned user types, related to all kinds of domains, and about different things suitable for this platform. some posts can be very large, and some can be small. They should sound similar to LinkedIn posts because this is a formal platform. However, there can also be funny content now and then. Remember, variety is the key.
-    ii. The popularity of the posts should be between 0.5 and 1.0 (both inclusive), which is assumed to have been calculated based on the number of likes (with 0.0001 weight), shares (with 0.002 weight), and comments (with 0.01 weight) on the posts.
-    iii. Keep in mind the personality of Elias, and the weights of likes, shares, and comments, while generating the data about what posts he likes, shares, or comments on.
-    iv. As mentioned here likes, shares, and comments have weights. Comments have the highest weight because people tend to comment the least as compared to likes and shares, similarly, people tend to like posts the most is why it has the lowest weight. Elias must be no different in that
-    v. Do not make all the posts tailored to the personality of Elias. We need all kinds of posts including ones that Elias will ignore because he does not find them interesting. That is very important to know, so that, our system can make the right recommendation. Elias is just one user of our system. There are supposed to be posts from very different groups of people from very different domains having very different interests as compared to Elias. Please keep that in mind.
-"""
-
-Now generate 100 rows of data. It should be only plain CSV text without spaces after the commas, no explanation is needed, just like this:
-text,popularity,elias_liked,elias_shared,elias_commented
