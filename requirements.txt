@@ -5,3 +5,7 @@ matplotlib
 tensorflow
 tensorflow-hub
 umap-learn
+langchain
+langchain_community
+google-generativeai
+langchain-google-genai
